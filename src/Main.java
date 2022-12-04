@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         // Задание 1
-        int age = 19;
+        System.out.println("Задание 1");
+        int age = 9;
         if (age >= 18) {
             System.out.println("поздравляем с совершеннолетием!");
         }
@@ -9,7 +10,8 @@ public class Main {
             System.out.println("возраст совершеннолетия ещё не наступил, нужно немного подождать.");
         }
         // Задание  2
-        int ages = 26;
+        System.out.println("Задание 2");
+        int ages = 20;
         if (ages >= 7)
             if (ages < 18)   {
                 System.out.println("ребенок ходит в школу");
@@ -21,5 +23,19 @@ public class Main {
         if (ages >= 24) {
             System.out.println("человек окончил университет и ему пора искать первую работу");
         }
+        // Задание 3
+        System.out.println("Задание 3");
+        int OneVan = 100;
+            if (OneVan >= 1)
+            if (OneVan < 60)   {
+                System.out.println("есть место в вагоне: сидячее");
+            }
+        if (OneVan >= 60)
+            if (OneVan < 102)   {
+                System.out.println("есть место в вагоне: стоячее");
+            }
+        if (OneVan >102)    {
+                System.out.println("мест в вагоне нет");
+            }
     }
 }
