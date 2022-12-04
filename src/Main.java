@@ -83,8 +83,18 @@ public class Main {
             } else if (age2 > 24) {
             System.out.println("человеку пора на работу");
         }
-
-
+// Задание 3-2
+        System.out.println("Задание 3-2");
+        int age3 = 10;
+        if (age3 < 5) {
+            System.out.println("ребенок не может кататься на аттракционе");
+        }
+        else if (age3 >= 5 && age3 <= 14) {
+            System.out.println("может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        }
+        else if (age3 > 14) {
+            System.out.println("ребенок может кататься без сопровождения взрослого");
+        }
 
     }
 }
