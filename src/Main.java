@@ -71,5 +71,20 @@ public class Main {
         if (OneVan1 > 102) {
             System.out.println("мест в вагоне нет");
         }
+        // Задание 3-1
+        System.out.println("Задание 3-1");
+        int age2 = 6;
+        if (age2 >= 2 && age2 <= 6) {
+            System.out.println("человеку нужно ходить в детский сад");
+        } else if (age2 >= 7 && age2 < 18) {
+                System.out.println("человеку нужно ходить в школу");
+            } else if (age2 > 18 && age2 < 24) {
+                System.out.println("человеку нужно ходить в университет");
+            } else if (age2 > 24) {
+            System.out.println("человеку пора на работу");
+        }
+
+
+
     }
 }
