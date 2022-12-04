@@ -60,5 +60,16 @@ public class Main {
                     }
                 }
             }
+        // Задание 2-3
+        System.out.println("Задание 2-3");
+        int OneVan1 = 105;
+        if (OneVan1 < 60) {
+            System.out.println("есть место в вагоне: сидячее");
+        } else {
+                System.out.println("есть место в вагоне: стоячее");
+            }
+        if (OneVan1 > 102) {
+            System.out.println("мест в вагоне нет");
+        }
     }
 }
