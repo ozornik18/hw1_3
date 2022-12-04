@@ -95,6 +95,20 @@ public class Main {
         else if (age3 > 14) {
             System.out.println("ребенок может кататься без сопровождения взрослого");
         }
+// Задание 3-3
+        System.out.println("Задание 3-3");
+        int number = 2;
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (number > one && number < three) {
+            System.out.println("1 < 2");
+        } else if (number < two) {
+            System.out.println("2 > 1");
+        }
+        else if (number > two) {
+            System.out.println("3 > 2");
+        }
 
     }
 }
